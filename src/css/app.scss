@@ -1,0 +1,22 @@
+// app global css in SCSS form
+@font-face {
+  font-family: montserrat;
+  src: url(./fonts/montserrat-v23-latin-regular.woff);
+}
+
+#q-app {
+  background: #2f2f2f;
+}
+.q-page-container,
+.q-header{
+  max-width:1280px;
+  margin:0px auto;
+}
+h1,
+h2,
+h3,
+h4,
+p, a, span {
+  font-family: 'montserrat' !important;
+  color:white;
+}
