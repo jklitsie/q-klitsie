@@ -2,7 +2,7 @@
   <q-page>
       <div class=" flex row text-center banner-container banner">
         <div class="col-md-8 col-xs-12 q-pl-md q-pr-md gutter-sm text-justify">
-          <h2>Welkom ik ben</h2>
+          <h2 class="small-text">Welkom ik ben</h2>
           <h1>Jard Klitsie</h1>
           <h4>Software Engineer</h4>
           <div class="info">
@@ -10,16 +10,10 @@
           Laat wat van je <a href="https://www.linkedin.com/in/jard-klitsie-7b836b63/" target="_blank">horen</a> dan kan ik misschien spoedig iets voor jou betekenen</span>
           </div>
         </div>
-        <q-avatar rounded class="col-md col-xs-0 avatar-container">
+        <q-avatar rounded class="col-md col-xs-12 avatar-container">
           <q-img src="~assets/j-klitsie.png"  width="75%" />
         </q-avatar>
       </div>
-<!--      <div class="info row">-->
-<!--        <div class="col-8 offset-4">-->
-<!--        <span>Het moet lekker werken, Dat is mijn motto. Ik ben een leergierige developer die zich altijd verdiept in nieuw en oud. Een nonchalant iemand die altijd zoekt naar de best passende oplossing voor elk probleem of vraag.-->
-<!--          Laat wat van je <a href="https://www.linkedin.com/in/jard-klitsie-7b836b63/" target="_blank">horen</a> dan kan ik misschien spoedig iets voor jou betekenen</span>-->
-<!--        </div>-->
-<!--      </div>-->
   </q-page>
 </template>
 
@@ -31,6 +25,16 @@ export default defineComponent({
 });
 </script>
 <style lang="scss">
+@media only screen and (max-width: 480px) {
+  .small-text {
+    font-size:35px;
+  }
+  .info {
+    font-size:30px !important;
+    line-height:32px !important;
+    text-align:left;
+  }
+}
 .banner-container {
   padding-top: 3em;
 }
