@@ -4,8 +4,8 @@
       <q-toolbar>
         <q-toolbar-title> J.K. </q-toolbar-title>
         <div class="row">
-          <q-btn unelevated to='/' class="q-mr-md">Home</q-btn>
-          <q-btn unelevated to="/portfolio" class="q-mr-md">Portfolio</q-btn>
+          <q-btn :class="{active: routeIsHome}" unelevated to='/' class="q-mr-md">Home</q-btn>
+          <q-btn :class="{active: routePortfolio}" unelevated to="/portfolio" class="q-mr-md">Portfolio</q-btn>
 
         </div>
       </q-toolbar>
@@ -32,5 +32,21 @@ export default defineComponent({
 
   setup() {
   },
+  computed: {
+    routePortfolio: function () {
+      return this.$route.path === '/portfolio';
+    },
+    routeIsHome: function () {
+      return this.$route.path == '/';
+    }
+  }
 });
 </script>
+<style lang="scss">
+.q-toolbar {
+  padding:0px;
+}
+.q-btn.active {
+  text-decoration: underline;
+}
+</style>
