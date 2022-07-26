@@ -2,12 +2,11 @@
   <q-page>
       <div class=" flex row text-center banner-container banner">
         <div class="col-md-8 col-xs-12 q-pl-md q-pr-md gutter-sm text-justify">
-          <h2 class="small-text">Welkom ik ben</h2>
           <h1>Jard Klitsie</h1>
           <h4>Software Engineer</h4>
           <div class="info">
-            <span>Het moet lekker werken, dat is mijn motto. Ik ben een leergierige developer die zich altijd verdiept in nieuw en oud. Een nonchalant iemand die altijd zoekt naar de best passende oplossing voor een probleem of vraag.
-          Laat wat van je <a href="https://www.linkedin.com/in/jard-klitsie-7b836b63/" target="_blank">horen</a> dan kan ik misschien spoedig iets voor jou betekenen</span>
+            <span>Het moet lekker werken, dat is mijn motto. <br><br>Ik ben een leergierige developer die zich altijd verdiept in nieuw en oud. Een nonchalant iemand die altijd zoekt naar de best passende oplossing voor een probleem of vraag.
+            <br> <br> Laat wat van je <a href="https://www.linkedin.com/in/jard-klitsie-7b836b63/" target="_blank">horen</a> dan kan ik misschien spoedig iets voor jou betekenen</span>
           </div>
         </div>
         <q-avatar rounded class="col-md col-xs-12 avatar-container">
@@ -40,7 +39,7 @@ export default defineComponent({
 }
 .info {
   margin: 50px 0;
-  font-size: 3em;
+  font-size: 1.5em;
 }
 .banner h1,
 .banner h2,
