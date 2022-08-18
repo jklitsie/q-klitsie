@@ -5,8 +5,7 @@
     <div class="row">
       <div class="q-mr-auto col-lg-4 col-sm-12">
         <h2>Wat doe ik nu</h2>
-        <span>Op dit moment bevind ik me in het laatste jaar van mijn studie Software Engineering aan de Hogeschool van Amsterdam, en ben ik werkzaam bij
-          <a href="http://mccs.nl" target="_blank">MCCS</a> te Almere</span>
+        <span>Op dit moment bevind ik me in het laatste jaar van mijn studie Software Engineering aan de Hogeschool van Amsterdam.</span>
       </div>
       <div class=" col-sm-12 col-lg-7">
         <h2>Wat kan ik</h2>
